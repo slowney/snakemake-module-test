@@ -1,0 +1,13 @@
+name: Align
+channels: 
+  - conda-forge
+  - defaults
+  - bioconda
+dependencies:
+  - bioconda::bwa
+  - bioconda::samtools
+  - bioconda::picard=2.18.9
+  - libopenblas
+  - bioconda::bcftools
+  - bioconda::samtools
+  - conda-forge::awscli

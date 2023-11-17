@@ -1,0 +1,7 @@
+name: UMI_Handler
+channels: 
+  - conda-forge
+  - defaults
+  - bioconda
+dependencies:
+  - bioconda::cutadapt
